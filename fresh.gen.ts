@@ -13,7 +13,7 @@ import * as $movies_middleware from "./routes/movies/_middleware.ts";
 import * as $movies_index from "./routes/movies/index.tsx";
 import * as $rate_a_movie from "./routes/rate-a-movie.tsx";
 import * as $Counter from "./islands/Counter.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
